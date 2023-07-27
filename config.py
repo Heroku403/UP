@@ -5,7 +5,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5732190759:AAEJS6JREMSgkIDQZzU4oUHlz6AXzFprezk")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", 14136462))
-    API_HASH = os.environ.get("API_HASH" '54391f1d451d5223e26fc28ac6c86a67')
+    API_HASH = os.environ.get("API_HASH" "54391f1d451d5223e26fc28ac6c86a67")
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
